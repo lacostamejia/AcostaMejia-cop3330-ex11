@@ -36,7 +36,7 @@ public class App {
 
         dollars = (rate * euros);
 
-        System.out.println(euros + " euros at an exchange rate of " + rate + " is \n " + dollars + " U.S dollars.");
+        System.out.printf("%d euros at an exchange rate of %.4f is \n%.2f US. Dollars",euros,rate,dollars);
 
     }
 }
